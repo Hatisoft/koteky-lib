@@ -4,7 +4,7 @@
   "description": "shared library for the koteky project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/Hatisoft/koteky-lib/issues"
   },
-  "homepage": "https://github.com/Hatisoft/koteky-lib#readme"
+  "homepage": "https://github.com/Hatisoft/koteky-lib#readme",
+  "devDependencies": {
+      "blanket": "^1.2.1",
+      "chai": "^3.4.1",
+      "mocha": "^2.3.4",
+      "sinon": "^1.17.2",
+      "sinon-chai": "^2.8.0"
+  }
 }
