@@ -6,11 +6,6 @@ chai.use(sinonChai);
 
 var post = require('../lib/post');
 
-/*expect(hello).to.not.equal('Hello');
-expect(hello).to.be.a('string');
-expect(hello).to.not.be.a('number');
-expect(hello).to.contain('he');*/
-
 var before = function(){
     date = new Date(2011, 0, 1, 2, 3, 4, 567);
     origin = "Twitter";
