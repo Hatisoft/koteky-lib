@@ -2,6 +2,10 @@
   "name": "koteky-lib",
   "version": "0.0.1",
   "description": "shared library for the koteky project",
+  "keywords": [
+    "koteky",
+    "social network"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
