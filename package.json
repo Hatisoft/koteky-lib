@@ -1,6 +1,6 @@
 {
   "name": "koteky-lib",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "shared library for the koteky project",
   "main": "index.js",
   "scripts": {
